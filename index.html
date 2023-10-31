@@ -11,6 +11,24 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  img {
+    max-width: 25%;
+    max-height:15%;
+    float: left;
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20%;
+    float: left;
+  }
   body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
@@ -430,10 +448,11 @@
 </div>
 
 <!-- Container (People Section) -->
-<div id="dr" class="container-fluid">
-  <div class="row">
-    <div class="col-sm-8">
-      <img src="Cory_Windorff_Chemistry_081320-3.jpg" alt="Dr. Cory Windorff" width="400">
+<div id="dr" class="container">
+  <div class="image">
+      <img src="Cory_Windorff_Chemistry_081320-3.jpg" alt="Dr. Cory Windorff">
+  </div>
+  <div class="text">
       <h2>ABOUT</h2><br>
       <h3>Dr. Cory Windorff</h3><br>
       <h4>Cory Windorff was born and raised outside Milwaukee, WI. For a couple years following high school he worked as an industrial electrician. 
@@ -445,7 +464,6 @@
         From April-June 2020 Dr. Windorff was a post -doctoral researcher with Professor Henry La Pierre at the Georgia Institute of Technology, helping to set up radiochemical facilities. 
         In August of 2020 Professor Windorff joined the faculty at New Mexico State University. 
         At NMSU Professor Windorff and his research team study the coordination chemistry of uranium, and the lanthanides.</h4><br>
-    </div>
   </div>
 </div>
   
