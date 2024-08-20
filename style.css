@@ -8,6 +8,7 @@
     max-width: 375px;
     max-height: 400px;
     float: left;
+    margin: 10px 30px 0 0;
   }
   
   .text {
@@ -17,6 +18,7 @@
     float: left;
     text-align: justify;
     text-justify: inter-word;
+    margin: 20px 0 0 0;
   }
   body {
     font: 400 15px Lato, sans-serif;
@@ -189,9 +191,27 @@
       width: 100%;
       margin-bottom: 35px;
     }
+    .text {
+        text-align: justify;
+        margin: 0 25px ;
+    }
+    img {
+        max-width: 100%;
+        margin: 10px 0 20px ; 
+      }
   }
   @media screen and (max-width: 480px) {
     .logo {
       font-size: 150px;
     }
+
+    .text {
+        text-align: justify;
+        margin: 0 25px ;
+      }
+
+    img {
+        max-width: 100%;
+        margin: 10px 0 20px ; 
+      }
   }
