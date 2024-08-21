@@ -13,11 +13,14 @@ Facilities
 		- scroll through photos and descriptions
 
 Publications
-- teach Cory how to do this
+- teach Cory how to do this --> I promise I can learn! 
+- Add google Scholar link https://scholar.google.com/citations?hl=en&user=TLakupcAAAAJ&view_op=list_works&sortby=pubdate 
 
 People
 - main page = group picture
 	- separate page with group picture and individual pictures (current and former)
+	- after person description add ORCiD link https://orcid.org/0000-0002-5208-9129
 
 Resources
 - links to other pages
+
