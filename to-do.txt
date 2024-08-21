@@ -1,0 +1,23 @@
+NavBar
+- add "Facilities" tab
+	- Implement similar to Publications
+
+Research
+- Ask Cory to provide expanded info
+- Use strong man picture instead
+
+Facilities
+- pictures and descriptions
+- incorporate slideshow
+	- separate page
+		- scroll through photos and descriptions
+
+Publications
+- teach Cory how to do this
+
+People
+- main page = group picture
+	- separate page with group picture and individual pictures (current and former)
+
+Resources
+- links to other pages
