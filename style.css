@@ -192,9 +192,9 @@
       width: 100%;
       margin-bottom: 35px;
     }
-    .text {
+    h4 {
         text-align: justify;
-        margin: 0 25px ;
+        /* margin: 0 25px ; */
     }
     img {
         max-width: 100%;
@@ -206,14 +206,13 @@
       font-size: 150px;
     }
 
-    .text {
+    h4 {
         text-align: justify;
-        margin: 0 25px ;
+        /* margin: 0 25px ; */
       }
 
     img {
         max-width: 95%;
         margin: 2% 25% 5% 0%;
-        /* margin: 0 0% 15% 0%;  */
       }
   }
