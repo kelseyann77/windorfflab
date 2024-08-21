@@ -198,18 +198,6 @@
    <br>
   
 </div>
-
-<!-- Container (Publications Section) -->
-<!-- <div id="publications" class="container-fluid bg-grey">
-  <h2>PUBLICATIONS</h2>
-  <p>33. “Isolation and characterization of a californium metallocene” Conrad A. P. Goodwin, Jing Su, Lauren M. Stevens, Frankie D. White, Nickolas H. Anderson, John D. Auxier II, Thomas E. Albrecht-Schönzart, Enrique R. Batista, Sasha F. Briscoe, Justin N. Cross, William J. Evans, Alyssa N. Gaiser, Andrew J. Gaunt, Michael R. James, Michael T. Janicke, Tener F. Jenkins, Zachary R. Jones, Stosh A. Kozimor, Brian L. Scott, Joseph. M. Sperling, Justin C. Wedal, <b>Cory J. Windorff</b>, Ping Yang, and Joseph W. Ziller, Nature, <b>2021</b>, 599, 421–424.
-<b>DOI</b>: <a href="https://www.nature.com/articles/s41586-021-04027-8">10.1038/s41586-021-04027-8</a></p>
-  <br>
-  <p>32.*† “Synthesis, characterization, and theoretical analysis of plutonyl phosphine oxide complexes” <b>Cory J. Windorff</b>,* Maria J. Beltrán-Leiva, Thomas E. Albrecht-Schönzart, Zhuanling Bai, Cristian Celis-Barros, Conrad A. P. Goodwin, Zachary Huffman, Noah C. McKinnon, and Joseph M. Sperling, Dalton Transactions, <b>2021</b>, 50, 14537–14541.
-<b>DOI</b>: <a href="https://pubs.rsc.org/en/content/articlelanding/<b>2021</b>/DT/D1DT03041H">10.1039/D1DT03041H</a></p>
-  <p>*As corresponding author</p>
-  <br> -->
-
   
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid text-center bg-grey">
@@ -229,48 +217,7 @@
   <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
 </footer>
 
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.pathname === window.location.pathname && this.hash !== "") {
-    //if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 900, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-    // If the link is for a different page, allow the default behavior
-    else if (this.hash !== "") {
-      // Let the default behavior happen (i.e., navigating to index.html#section)
-      window.location.href = this.href;
-    }
-  });
-  
-  $(window).scroll(function() {
-    $(".slideanim").each(function(){
-      var pos = $(this).offset().top;
-
-      var winTop = $(window).scrollTop();
-        if (pos < winTop + 600) {
-          $(this).addClass("slide");
-        }
-    });
-  });
-})
-</script>
+<script src="navbar_other_pages.js"></script>
 
 </body>
 </html>
