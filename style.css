@@ -38,6 +38,7 @@
     color: #303030;
     font-weight: 400;
     margin-bottom: 30px;
+    text-align: justify;
   }  
   .jumbotron {
     background-color: #003152;
@@ -200,7 +201,7 @@
         margin: 5px 20px 10px 0px; 
       }
   }
-  @media screen and (max-width: 505px) {
+  @media screen and (max-width: 510px) {
     .logo {
       font-size: 150px;
     }

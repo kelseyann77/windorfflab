@@ -4,7 +4,7 @@ NavBar
 
 Research
 - Ask Cory to provide expanded info
-- Use strong man picture instead
+- add alt text to strong man
 
 Facilities
 - pictures and descriptions
